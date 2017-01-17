@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title></title>
+</head>
+
+<body>
+    <script>
+    var i = 0;
+    setInterval(function() {
+        document.title = ++i;
+    }, 1000);
+    setInterval(function() {
+        document.querySelector('title').innerHTML = i+'dom';
+    }, 3000);
+    </script>
+</body>
+
+</html>
